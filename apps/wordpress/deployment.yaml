@@ -16,7 +16,7 @@ spec:
         app: wordpress
     spec:
       containers:
-      - image: bitnami/wordpress:6
+      - image: bitnami/wordpress:5
         resources:
           requests:
             cpu: 1000m

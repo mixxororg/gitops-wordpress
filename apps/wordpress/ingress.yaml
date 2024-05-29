@@ -8,7 +8,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec: 
   rules:
-  - host: "wordpress.airq.nodegroups.com"
+  - host: "wordpress.air-q-cloud.de"
     http:
       paths:
       - path: /

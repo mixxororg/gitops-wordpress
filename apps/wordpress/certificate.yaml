@@ -5,7 +5,7 @@ metadata:
   namespace: "wordpress"
 spec:
   secretName: "wordpress-tls"
-  dnsNames: ["wordpress.airq.nodegroups.com"]
+  dnsNames: ["wordpress.air-q-cloud.de"]
   issuerRef:
     name: "letsencrypt-prod"
     kind: "ClusterIssuer"

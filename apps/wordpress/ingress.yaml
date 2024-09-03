@@ -8,7 +8,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec: 
   rules:
-  - host: "wordpress.air-q-cloud.de"
+  - host: "wordpress.example.com"
     http:
       paths:
       - path: /
@@ -20,5 +20,5 @@ spec:
               number: 8080
   tls:
   - hosts:
-    - "wordpress.air-q-cloud.de"
+    - "wordpress.example.com"
     secretName: "wordpress-tls"
